@@ -1,6 +1,12 @@
+@media screen and (max-width: 767px) { /*767 ou menos*/
+
+    #palettes-divs{
+        padding: 10vw;
+    }
+ }
+
 body{
     text-align: center;
-    margin: 0;
     background-color: #1C1C1C;
 }
 
@@ -19,7 +25,6 @@ body section {
 }
 
 #btnGenerate{
-    margin-top: 100px;
     font-size: 2em;
     color: white;
     border: none;
@@ -27,4 +32,33 @@ body section {
 
 #btnGenerate:hover{
     color: #E0FFFF;
+}
+
+.myDropdown{
+    background-color: #FFF;
+    text-align: center;
+    font-size: 1.2rem;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 5px;
+}
+
+.myDropdown:hover{
+    background-color: #1C1C1C;
+    color: white;
+}
+
+.dropdownItem{
+    background-color: #f3f3f3;
+    color: black;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 5px;
+}
+
+#firstSection{
+    margin-top: 4rem;
 }

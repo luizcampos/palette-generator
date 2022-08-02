@@ -25,9 +25,24 @@
 
 </head>
 <body>
-    <button type="button" class="btn" id="btnGenerate">
-        Generate
-    </button>
+    <br>
+    <div id="firstSection">
+        <select id="typePalette" class="myDropdown">
+            <option value="popular" selected class="dropdownItem">Popular</option>
+            <option value="monochromatic" class="dropdownItem">Monochromatic</option>
+        </select>
+    
+        <select id="numberOfColors" class="myDropdown">
+            <option value="5" selected class="dropdownItem">5 colors</option>
+            <option value="4" class="dropdownItem">4 colors</option>
+            <option value="3" class="dropdownItem">3 colors</option>
+        </select>
+        
+        <br/><br/>
+        <button type="button" class="btn" id="btnGenerate">
+            Generate
+        </button>
+    </div>
     
     <br/>
     <br/>
@@ -37,3 +52,6 @@
     <script src="./palettes-functions.js"></script>
 </body>
 </html>
+
+<!-- JS BOOTSTRAP -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
